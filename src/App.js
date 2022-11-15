@@ -5,7 +5,7 @@ import Box from './Box'
 
 export default function App() {
   const [squares, setSquares] = React.useState(boxes)
-  // its a imperative code
+  // its a Diclerative code
   function toggle(id) {
     setSquares((prevSquares) => {
       return prevSquares.map((square) => {
